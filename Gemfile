@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+gem 'spree', '~> 3.2.0.rc1'
 # Provides basic authentication functionality for testing parts of your engine
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+gem 'spree_auth_devise', '~> 3.2.0.beta'
 gem 'delayed_job_active_record'
 
 gemspec
